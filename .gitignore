@@ -1,4 +1,36 @@
 node_modules/
 .DS_Store
 CLAUDE.local.md
-.claude/settings.local.json
+
+# Agent skills/config — regenerate with `npx uipro init --ai claude`
+.claude/
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+*.pem
+
+# debug
+npm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# testing
+/coverage
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
